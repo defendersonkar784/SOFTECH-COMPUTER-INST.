@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>softech Computer </title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="header">
+
+    <div class="left" onclick="window.location.href='/'">
+          <a class="logo" href="#home">
+      <img 
+        src="https://cdn.dribbble.com/userupload/37580390/file/original-a6c13446213446ef166af594a1bc6b20.jpg?format=webp&resize=640x480&vertical=center" 
+        alt="softech Logo"
+        style="height:90px; width:auto; border-radius:6px;"
+      >
+    </a>
+      <span>Softech <br> Computer  Institute</span> 
+    </div>
+    <input type="text" id="searchInput" placeholder="Search Exams...">
+
+    <div class="right">
+      <a href="/" class="nav-item">Home</a>
+      <a href="/courses" class="nav-item">Courses</a>
+
+      
+      <div class="nav-item bootcamp-dropdown">
+        <span class="dropdown-toggle">
+          <a href="/bootcamp">Activation key</a>
+          <i class="ri-arrow-down-s-line"></i>
+        </span>
+
+        <div class="dropdown-menu">
+          <a href="/kodr" class="dropdown-item">
+            <span>Offline tech</span>
+            <small>DCA / PGDCA </small>
+          </a>
+
+          <a href="/kodex" class="dropdown-item">
+            <span>Online Tech</span>
+            <small> DCA / PGDCA </small>
+          </a>
+        </div>
+      </div>
+
+      <a href="/signin" class="btn sign-in">Sign In</a>
+      <a href="/login" class="btn log-in">Log In</a>
+     
+
+      <button class="menu-btn">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+      </button>
+
+    </div>
+  </div>
+
+  
+  <div class="mobile-menu">
+    <a href="/">Home</a>
+    <a href="/courses">Courses</a>
+
+    <div class="mobile-bootcamp">
+      <p class="mobile-bootcamp-header">Bootcamps <i class="ri-arrow-down-s-line"></i></p>
+
+      <div class="mobile-bootcamp-content">
+        <a href="/kodr">Offline KODR 3.0</a>
+        <a href="/kodex">Online KODEX</a>
+      </div>
+    </div>
+
+    <a href="/signin">Sign In</a>
+  </div>
+</nav>
+
+
+
+
+
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1742635870667-fd8b546b277c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZWUlMjBpbWFnZXMlMjBPRiUyMElUJTIwU0VDVE9SJTIwQ0FPQ0hJTkclMjBDRU5URVJ8ZW58MHx8MHx8fDA%3D">
+    </div>
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1741940513798-4ce04b95ffda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fElUJTIwQ09BQ0hJTkclMjBDRU5URVIlMjBJTUFHRXxlbnwwfHwwfHx8MA%3D%3D" alt="Offer Slide 2">
+    </div>
+
+    <div class="slide">
+        <img src="https://media.istockphoto.com/id/2226728748/photo/business-presentation-by-senior-manager-in-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=rLa_inc_aIP2qL4MTZsI2MKgpC-eL_YFpBlK-AHz0RI=" alt="Offer Slide 3">
+    </div> 
+
+
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+
+
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+
+</div>
+
+<section class="popular-exams">
+  <h2>Popular Exams</h2>
+
+  <div class="exam-slider">
+    <div class="exam-card">SSC</div>
+    <div class="exam-card">BANK</div>
+    <div class="exam-card">RAILWAY</div>
+    <div class="exam-card">POLICE</div>
+    <div class="exam-card">TEACHING</div>
+    <div class="exam-card">DEFENCE</div>
+    <div class="exam-card">STATE EXAMS</div>
+    <div class="exam-card">NDA</div>
+    <div class="exam-card">UPSC</div>
+  </div>
+</section>
+
+<section class="quality-slider">
+  <div class="slider-container">
+
+    <div class="slide active">
+      <h2>Welcome to Softech Computer Institute</h2>
+      <p>We provide high-quality computer education with practical training.</p>
+    </div>
+
+    
+    <div class="slide">
+      <h2>Our Quality Promise</h2>
+      <p>Experienced teachers, best study material & real-world projects.</p>
+    </div>
+
+    
+    <div class="slide">
+      <h2>Why Choose Us?</h2>
+      <p>100% support, notes, mock tests, and career guidance.</p>
+    </div>
+
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+<section class="course-slider-section">
+  <h2>Our Test Series & Courses</h2>
+
+  <div class="course-slider">
+    
+    <div class="course-card">
+      <h3>SSC Test Series</h3>
+      <p>Full Mock Tests + Solutions</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Banking Test Series</h3>
+      <p>IBPS + SBI + RBI Prep</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Railway Test Series</h3>
+      <p>RRB NTPC + Group D</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Police Exam Prep</h3>
+      <p>State Police Mock Tests</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Teaching Exams</h3>
+      <p>TET + CTET + MPTET</p>
+    </div>
+
+    <div class="course-card">
+      <h3>General Aptitude</h3>
+      <p>Reasoning + Quant</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="quality-slider">
+  <div class="slider-container">
+
+    
+    <div class="slide active">
+      <h2>Welcome to Softech Computer Institute</h2>
+      <p>We provide high-quality computer education with practical training.</p>
+    </div>
+
+    
+    <div class="slide">
+      <h2>Our Quality Promise</h2>
+      <p>Experienced teachers, best study material & real-world projects.</p>
+    </div>
+
+
+    <div class="slide">
+      <h2>Why Choose Us?</h2>
+      <p>100% support, notes, mock tests, and career guidance.</p>
+    </div>
+
+    <div class="slide slide-grid">
+      <div class="left">
+        <h2>No compromise with Quality!</h2>
+        <p>"Empowering Your Future with Practical IT Skills"</p>
+
+        <p>
+          Softech Computer Institute is a leading IT training center committed to providing
+          high-quality computer education for all age groups. Whether you're a beginner or aiming for
+          professional certification, we have the right course for you.
+        </p>
+
+        <p>
+          Our mission is to equip students with the skills they need to succeed in today's tech-driven world.
+        </p>
+      </div>
+
+      <div class="right">
+        <img src="https://images.unsplash.com/photo-1574230951449-2635f5cb3bc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fElUJTIwQ09BQ0hJTkclMjBDRU5URVIlMjBJTUFHRXxlbnwwfHwwfHx8MA%3D%3D" alt="Quality Image">
+      </div>
+    </div>
+
+  </div>
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span> 
+  </div>
+</section>
+<div class="slide slide-grid services-slide">
+
+  <div class="left">
+    <h2>Softech Computer Institute</h2>
+
+    <p class="subtitle">
+      Your trusted center for quality computer education.
+    </p>
+
+    <p><strong>We offer career-oriented courses including:</strong></p>
+
+    <ul class="service-list">
+      <li>Microsoft Office (Word, Excel, PowerPoint, Access)</li>
+      <li>Computer Basics</li>
+      <li>Typing – English & Hindi</li>
+      <li>Multimedia</li>
+      <li>Hibernate</li>
+      <li>Computer Technician</li>
+      <li>DCA & PGDCA</li>
+    </ul>
+
+    <p class="tagline">
+      Our goal is to empower students with real-world IT skills and
+      make them job-ready.
+    </p>
+
+    <br>
+
+    <h3 class="admission-title">📢 Admission Open!</h3>
+
+    <p>
+      Registration Starts: <strong>June 10, 2025</strong><br>
+      Special offers valid till 30 August 2025:<br>
+      DCA: <strong>₹ 10999</strong> → After 30 Aug: ₹ 12499<br>
+      PGDCA: <strong>₹ 12499</strong> → After 30 Aug: ₹ 13999
+    </p>
+
+    <p class="motto">
+      “Discover Your Potential and Shape Your Future.”  
+      <br> अपनी क्षमता पहचानें और भविष्य बनाएं।
+    </p>
+
+    <p><strong>Courses:</strong> DCA | PGDCA</p>
+
+    <br>
+
+    <h3 class="contact-title">📞 Contact Us</h3>
+
+    <p>
+      Phone/WhatsApp:  
+      +91 9038657749, +91 9981773449  
+      <br>
+      +91 8348874114, +91 7067418449
+    </p>
+
+    <p>
+      <strong>Address:</strong> Civil Line Pachama, Temalpur, Rewa M.P.
+    </p>
+
+    <p><strong>Email:</strong> softechinfoteam@gmail.com</p>
+
+    <p>
+      <strong>Website:</strong>  
+      <a href="https://softechcomputerinstitute.in" target="_blank">
+        softechcomputerinstitute.in
+      </a>
+    </p>
+  </div>
+
+  <div class="right">
+    <img src="https://media.istockphoto.com/id/621348836/photo/business-executive-in-front-of-his-team.webp?a=1&b=1&s=612x612&w=0&k=20&c=UaJfVMQ3sG2laSkl_BesrNu-1kmG5BcWS9ptrpptzIE=" alt="Services Image">
+  </div>
+</div>
+
+
+
+<div class="accordion-container">
+
+  <div class="accordion-item">
+    <button class="accordion-header">MCA Entrance</button>
+    <div class="accordion-content">
+      <p>Here you can write MCA Entrance details, syllabus, mock tests, etc.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header">BCA Entrance</button>
+    <div class="accordion-content">
+      <p>Details for BCA Entrance go here.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header">Android</button>
+    <div class="accordion-content">
+      <p>Android Course details here.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header">Computer Exams</button>
+    <div class="accordion-content">
+      <p>All computer exam details here.</p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Centre for Development of Advanced Computing (C-DAC)
+    </button>
+    <div class="accordion-content">
+      <p>C-DAC syllabus & training details.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+
+
+  <div class="footer-top">
+    <div class="footer-col footer-brand">
+<img 
+        src="https://cdn.dribbble.com/userupload/37580390/file/original-a6c13446213446ef166af594a1bc6b20.jpg?format=webp&resize=640x480&vertical=center" 
+        alt="softech Logo"
+        style="height:45px; width:auto; border-radius:6px;"
+      >
+
+
+      <p class="footer-mail">
+        <strong>Mail:</strong> Softechinfoteam@gmail.com
+      </p>
+
+      <div class="app-buttons">
+
+<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg">
+ </div>
+
+      <h3 class="follow-title">Follow Us On</h3>
+
+      <div class="social-icons">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+<img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+<img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png">
+<img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png">
+<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg">
+
+       
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>ABOUT</h4>
+      <a href="#">About Us</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>HELP</h4>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>STUDENT</h4>
+      <a href="#">Blog</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>BUSINESS</h4>
+      <a href="#">Advertise with us</a>
+    </div>
+
+  
+    <div class="footer-col language-box">
+      <select id="languageSelect">
+        <option value="en">🌐 English</option>
+        <option value="hi">हिंदी</option>
+      </select>
+    </div>
+  </div>
+  <hr>
+  <div class="footer-bottom">
+    <p>Copyright © <span id="year"></span> Softech Computer Institute</p>
+
+    <div class="footer-links">
+      <a href="#">Disclaimer</a> |
+      <a href="#">Terms & Conditions</a> |
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Refund Policy</a> |
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+
+</footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
